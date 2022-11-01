@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(198, 108, 214);
+        }
+
+        .container {
+            background-color: rgb(214, 191, 242);
+            border: 2px solid rgb(68, 6, 119);
+            /* we can set top bottom left and right paddings */
+            /* padding: 23px 20px  30px     15px; */
+            /*          top  right bottom   left*/
+            /* padding shorthand */
+            /* same for margin */
+            /* padding: 20px            30px */
+            /* padding: y(top/bottom)   x(left/right); */
+            padding-top: 19px;
+            padding-bottom: 19px;
+            padding-right: 19px;
+            padding-left: 19px;
+            margin: 34px;
+            border-radius: 30px;
+            width: 233px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam magnam accusantium veritatis
+            magni excepturi optio similique, esse, fugiat odio qui aut omnis fuga accusamus aspernatur voluptatem quae,
+            debitis doloremque.</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam magnam accusantium veritatis
+            magni excepturi optio similique, esse, fugiat odio qui aut omnis fuga accusamus aspernatur voluptatem quae,
+            debitis doloremque.</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam magnam accusantium veritatis
+            magni excepturi optio similique, esse, fugiat odio qui aut omnis fuga accusamus aspernatur voluptatem quae,
+            debitis doloremque.</p>
+    </div>
+</body>
+
+</html>
